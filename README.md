@@ -1,4 +1,10 @@
 ### Hi there 👋
+### My name is Evans
+-  Welcome to My heaven on earth :smiley:. 
+- 🔭 I’m currently working on my website.
+- Checkout (https://snaveware.com) and it might be up already.
+- If not, explore my other projects on github. 
+- Would, love to hear from you :running:
 
 <!--
 **snaveware/snaveware** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
