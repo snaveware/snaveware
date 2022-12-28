@@ -113,7 +113,7 @@ const StyledLanding = styled.div`
             min-width: 30em;
             min-height: 18em;
             border-radius: 10px;
-            margin: ${({ theme }) => theme.sizes.space_sm} 0px;
+            margin: ${({ theme }) => theme.sizes.space_lg} 0px;
         }
     }
 `;

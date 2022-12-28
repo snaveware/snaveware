@@ -39,6 +39,8 @@ const StyledProjectSlide = styled.div`
         .project-name {
             color: ${({ theme }) => theme.colors.primary} !important;
             font-size: ${({ theme }) => theme.sizes.font_md};
+            padding-left: ${({ theme }) => theme.sizes.space_md} !important;
+            white-space: nowrap;
         }
 
         .pipe-separator {

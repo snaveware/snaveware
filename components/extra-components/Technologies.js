@@ -9,7 +9,10 @@ const Technologies = () => {
                 {TechnologiesData.map((technology, index) => {
                     return (
                         <div key={index} className="technologies-item">
-                            <img src={`/technologies${technology.logo}`} />
+                            <img
+                                alt={technology.name}
+                                src={`/technologies${technology.logo}`}
+                            />
                             <h3> {technology.name} </h3>
                         </div>
                     );
