@@ -33,14 +33,14 @@ const Navbar = () => {
             </div>
             <div className="hamburger-switch-container">
                 <Switch />
-                <Hamburger
+                {/* <Hamburger
                     shouldDisplayNav={shouldDisplayNav}
                     onToggleNavbar={() =>
                         setShouldDisplayNav((shouldDisplayNav) => {
                             return !shouldDisplayNav;
                         })
                     }
-                />
+                /> */}
             </div>
         </StyledNavbar>
     );

@@ -42,10 +42,11 @@ const StyledNavbar = styled.div`
             shouldDisplayNav ? "flex" : "none"};
         position: absolute;
         right: 0;
-        top: 20vh;
+        top: 10vh;
         margin-right: 5px;
         z-index: 100;
         border-radius: 10px;
+        background: ${({ theme }) => theme.background};
 
         color: ${({ theme }) => theme.text};
         width: 50%;

@@ -8,6 +8,7 @@ const StyledWhoWeAreSection = styled.div`
     align-items: center;
     padding: ${({ theme }) => theme.sizes.space_lg} 0;
     position: relative;
+    overflow-x: hidden;
 
     .who-top {
         h2,
