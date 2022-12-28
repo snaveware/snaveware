@@ -22,9 +22,6 @@ const globalStyles = createGlobalStyle`
 
     #__next {
         display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        min-width: 100vh;
       }
       
      
