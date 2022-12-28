@@ -23,7 +23,6 @@ const globalStyles = createGlobalStyle`
     #__next {
         display: flex;
         flex-direction: column;
-
       }
       
      
@@ -95,7 +94,9 @@ const globalStyles = createGlobalStyle`
 
     @media screen and (max-width: 320px) {
         #__next {
-          display: flex
+          display: flex;
+          flex-direction: column;
+
         }
       }
 
@@ -107,7 +108,8 @@ const globalStyles = createGlobalStyle`
             display: block;
         }
         #__next {
-            display: flex
+            display: flex;
+            flex-direction: column;
           }
     }
 `;

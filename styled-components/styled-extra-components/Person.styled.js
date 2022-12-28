@@ -51,7 +51,7 @@ const StyledPerson = styled.div`
             h3 {
                 color: ${({ theme }) => theme.text};
                 font-weight: 600;
-                font-size: ${({ theme }) => theme.sizes.font_lg};
+                font-size: ${({ theme }) => theme.sizes.font_md};
             }
 
             p {
