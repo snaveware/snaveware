@@ -29,6 +29,7 @@ const WhoWeAreSection = () => {
                 <span className="keyword">get in touch</span> with us.
             </article>
             <img
+                alt=""
                 src={"/FadedAngles.png"}
                 className="faded-angles faded-angles-right"
             />
