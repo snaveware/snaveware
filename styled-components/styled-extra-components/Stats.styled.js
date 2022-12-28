@@ -7,7 +7,8 @@ const StyledStats = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: ${({ theme }) => theme.sizes.space_md};
+    margin: auto;
+    padding: ${({ theme }) => theme.sizes.space_lg};
 
     .stats-item,
     .stats-value-container,
@@ -40,13 +41,13 @@ const StyledStats = styled.div`
 
     .stats-projects-container {
         .stats-value-container {
-            width: 8em;
-            height: 7em;
+            width: 7em;
+            height: 6em;
         }
 
         .stats-value-container-inner {
-            width: 7em;
-            height: 6em;
+            width: 6em;
+            height: 5em;
         }
     }
 

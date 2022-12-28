@@ -35,12 +35,12 @@ const StyledProjectSlide = styled.div`
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
+        padding: ${({ theme }) => theme.sizes.space_md} 0;
 
         .project-name {
             color: ${({ theme }) => theme.colors.primary} !important;
             font-size: ${({ theme }) => theme.sizes.font_md};
             padding-left: ${({ theme }) => theme.sizes.space_md} !important;
-            white-space: nowrap;
         }
 
         .pipe-separator {

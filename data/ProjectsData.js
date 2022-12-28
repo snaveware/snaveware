@@ -52,8 +52,8 @@ const ProjectsData = [
     {
         name: "Borrower's Paradise",
         imageUrl: {
-            webp: "/projects/bp.webp",
-            other: "/projects/bp.jpg",
+            webp: "/projects/BP.webp",
+            other: "/projects/BP.jpg",
         },
         description: "A Loan Management mobile application",
         btnText: "Live app",

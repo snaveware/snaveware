@@ -50,6 +50,7 @@ const StyledLanding = styled.div`
             color: ${({ theme }) => theme.colors.text};
             font-size: 1.3rem;
             font-weight: 600;
+            white-space: nowrap;
             &::before {
                 content: "";
                 padding: 0 3px;

@@ -20,7 +20,13 @@ const StyledNavbar = styled.div`
     align-items: center;
 
     .logo-a-tag {
+        display: flex;
+        flex-direction: row;
+        row-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
         text-decoration: none;
+        max-width: 80%;
     }
 
     .hamburger-switch-container {
