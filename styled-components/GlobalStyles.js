@@ -20,6 +20,15 @@ const globalStyles = createGlobalStyle`
         line-height: 1.8em;
     }
 
+    #__next {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        min-width: 100vh;
+      }
+      
+     
+
 
     .text-muted {
         color: ${({ theme }) => theme.text_muted};
@@ -85,6 +94,12 @@ const globalStyles = createGlobalStyle`
         border-radius: 100vw;
     }
 
+    @media screen and (max-width: 320px) {
+        #__next {
+          display: flex
+        }
+      }
+
     @media all and (min-width: 600px) {
         .home-mobile-projects-slider {
             display: none;
@@ -92,6 +107,9 @@ const globalStyles = createGlobalStyle`
         .home-desktop-projects-slider {
             display: block;
         }
+        #__next {
+            display: flex
+          }
     }
 `;
 
