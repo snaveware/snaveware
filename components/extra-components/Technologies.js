@@ -6,9 +6,9 @@ const Technologies = () => {
         <StyledTechnologies>
             <h3 className="heading">Technologies</h3>
             <div className="technologies-container">
-                {TechnologiesData.map((technology) => {
+                {TechnologiesData.map((technology, index) => {
                     return (
-                        <div className="technologies-item">
+                        <div key={index} className="technologies-item">
                             <img src={`/technologies${technology.logo}`} />
                             <h3> {technology.name} </h3>
                         </div>

@@ -1,4 +1,5 @@
 import StyledWhoWeAreSection from "../../styled-components/styled-about/WhoWeAreSection.styled";
+import Image from "next/image";
 import FadedAngles from "../../public/FadedAngles.png";
 
 const WhoWeAreSection = () => {
@@ -8,8 +9,8 @@ const WhoWeAreSection = () => {
                 <h2>Who We Are</h2>
                 <p>About</p>
             </div>
-            <img
-                src={FadedAngles.src}
+            <Image
+                src={FadedAngles}
                 className="faded-angles faded-angles-left"
             />
 
@@ -28,8 +29,8 @@ const WhoWeAreSection = () => {
                 us build our craft. To learn more, please{" "}
                 <span className="keyword">get in touch</span> with us.
             </article>
-            <img
-                src={FadedAngles.src}
+            <Image
+                src={FadedAngles}
                 className="faded-angles faded-angles-right"
             />
         </StyledWhoWeAreSection>

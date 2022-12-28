@@ -1,11 +1,13 @@
 import StyledPerson from "../../styled-components/styled-extra-components/Person.styled";
+import Image from "next/image";
+import EvansProfileImage from "../../public/EvansProfile.png";
 
 const Person = ({ name, role }) => {
     return (
         <StyledPerson>
             <div className="person-inner-container">
-                <img
-                    src="/evans-profile.png"
+                <Image
+                    src={EvansProfileImage}
                     alt="Evans profile picture"
                     className="profile-image"
                 />

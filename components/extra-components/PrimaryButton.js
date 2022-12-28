@@ -8,7 +8,7 @@ const PrimaryButton = ({ text, link, target }) => {
     return (
         <StyledPrimaryButton>
             {target == "_blank" && (
-                <a href={link} target={target}>
+                <a href={link} target={target} rel="noreferrer">
                     {text}
                 </a>
             )}
