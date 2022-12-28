@@ -22,6 +22,8 @@ const globalStyles = createGlobalStyle`
 
     #__next {
         display: flex;
+        flex-direction: column;
+
       }
       
      
