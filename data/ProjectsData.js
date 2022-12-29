@@ -7,7 +7,7 @@ const ProjectsData = [
         },
         description: "A Shipping Management System",
         btnText: "Live System",
-        btnLink: "http://global.snaveware.com",
+        btnLink: "https://global.snaveware.com",
     },
     {
         name: "Anchorbay",
@@ -30,6 +30,16 @@ const ProjectsData = [
         btnLink: "https://eshop.midori.ke",
     },
     {
+        name: "Aroma",
+        imageUrl: {
+            webp: "/projects/aroma.webp",
+            other: "/projects/aroma.jpg",
+        },
+        description: "A Hotel Website Template",
+        btnText: "Live Demo",
+        btnLink: "https://aroma.snaveware.com",
+    },
+    {
         name: "Fitness",
         imageUrl: {
             webp: "/projects/fitness.webp",
@@ -37,7 +47,7 @@ const ProjectsData = [
         },
         description: "A Fitness Website Template",
         btnText: "Live Demo",
-        btnLink: "http://fitness.snaveware.com",
+        btnLink: "https://fitness.snaveware.com",
     },
     {
         name: "Metameta",

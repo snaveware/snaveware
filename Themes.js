@@ -30,7 +30,7 @@ const ThemeStyles = {
     },
 };
 
-ThemeStyles.shadow = `0 1px 5px ${ThemeStyles.colors.primary_muted}`;
+ThemeStyles.shadow = `0 0.1px 5px ${ThemeStyles.colors.primary_muted}`;
 
 const Themes = {
     light: {
