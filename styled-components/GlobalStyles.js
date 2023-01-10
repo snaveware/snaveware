@@ -92,6 +92,24 @@ const globalStyles = createGlobalStyle`
         border-radius: 100vw;
     }
 
+    @keyframes blur-animation {
+        0% {
+            opacity: 40%;
+        }
+        50% {
+            opacity: 80%;
+        }
+        100% {
+            opacity: 100%;
+        }
+    }
+
+    
+    .blur-in-animation {
+        transition: all 0.5s ease-in-out;
+        animation: blur-animation 5s infinite alternate;
+    }
+
     @media screen and (max-width: 320px) {
         #__next {
           display: flex;

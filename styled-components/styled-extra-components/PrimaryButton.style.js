@@ -9,9 +9,10 @@ const StyledPrimaryButton = styled.div`
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    padding: 0 ${({ theme }) => theme.sizes.font_lg};
 
     &:hover .primary-btn-icon {
-        font-size: font-size: ${({ theme }) => theme.sizes.font_lg};
+        font-size: ${({ theme }) => theme.sizes.font_lg};
     }
 
     .primary-btn-icon {

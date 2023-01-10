@@ -31,7 +31,7 @@ const StyledContactInfoSection = styled.div`
 
     .contact-info-item-container a {
         text-decoration: none;
-        color: ${({ theme }) => theme.colors.primary};
+        color: ${({ theme }) => theme.colors.primary_muted};
     }
 
     @media all and (min-width: 600px) {

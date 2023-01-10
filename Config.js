@@ -5,7 +5,7 @@ const Config = {
     INSTAGRAM: "https://www.instagram.com/snaveware/",
     FACEBOOK: "https://facebook.com/",
     LINKEDIN: "https://www.linkedin.com/in/snaveware",
-    TWITTER: "https://twitter.com/evansdeveloper",
+    TWITTER: "https://twitter.com/snaveware",
     HOMEURL: "http:127.0.0.1:3000",
 };
 

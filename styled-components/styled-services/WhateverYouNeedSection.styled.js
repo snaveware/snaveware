@@ -5,16 +5,19 @@ const StyledWhateverYouNeedSection = styled.div`
     theme.sizes.space_md};
     width: 100%;
     background: ${({ theme }) => theme.background_muted};
+
+
     
 
     .whatever-top {
+        margin-bottom: ${({ theme }) => theme.sizes.space_lg};
         h2,
         p {
             text-align: center;
         }
         h2 {
             font-size: ${({ theme }) => theme.sizes.font_lg};
-            color: ${({ theme }) => theme.colors.primary};
+            color: ${({ theme }) => theme.text};
         }
 
         p {
@@ -33,6 +36,16 @@ const StyledWhateverYouNeedSection = styled.div`
         flex-wrap: nowrap
         justify-content: center;
         align-items: center;
+        padding: 0 ${({ theme }) => theme.sizes.space_md};
+        transition: all 1s ease-in-out ;
+
+        &:hover {
+            background: ${({ theme }) => theme.background};
+            transform: scale(1.1);
+            border-radius: 10px;
+            box-shadow: ${({ theme }) => theme.shadow};
+            
+        }
 
 
 

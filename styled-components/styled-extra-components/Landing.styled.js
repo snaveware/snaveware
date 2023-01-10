@@ -52,11 +52,11 @@ const StyledLanding = styled.div`
             font-weight: 600;
             white-space: nowrap;
             &::before {
-                content: "";
+                content: "~/";
                 padding: 0 3px;
                 margin: 0 5px;
                 height: 100%;
-                background-color: ${({ theme }) => theme.colors.accent};
+                color: ${({ theme }) => theme.colors.accent};
             }
 
             &::after {
@@ -64,7 +64,7 @@ const StyledLanding = styled.div`
                 padding: 0 1.5px;
                 margin: 0 3px;
                 height: 100%;
-                background-color: ${({ theme }) => theme.colors.primary_muted};
+                background-color: ${({ theme }) => theme.colors.accent};
             }
         }
 

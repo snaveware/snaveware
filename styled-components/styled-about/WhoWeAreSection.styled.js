@@ -17,7 +17,7 @@ const StyledWhoWeAreSection = styled.div`
         }
         h2 {
             font-size: ${({ theme }) => theme.sizes.font_lg};
-            color: ${({ theme }) => theme.colors.primary};
+            color: ${({ theme }) => theme.colors.text};
         }
 
         p {

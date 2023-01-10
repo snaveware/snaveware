@@ -6,8 +6,10 @@ const ThemeStyles = {
         //primary_muted: "#00e5ff",
         secondary: "#FF202A",
         accent: "#F2B125",
-        black: "#20061A",
-        black_muted: "#4A0940",
+        // black: "#20061A",
+        black: "#021007",
+        // black_muted: "#4A0940",
+        black_muted: "#020022",
         white: "#FFFFFF",
         white_muted: "#F6F6F6",
     },
@@ -30,8 +32,6 @@ const ThemeStyles = {
     },
 };
 
-ThemeStyles.shadow = `0 0.1px 5px ${ThemeStyles.colors.primary_muted}`;
-
 const Themes = {
     light: {
         ...ThemeStyles,
@@ -41,16 +41,18 @@ const Themes = {
         background_muted_inverted: ThemeStyles.colors.black_muted,
         text: ThemeStyles.colors.black,
         text_muted: ThemeStyles.colors.black_muted,
+        shadow: `0px 7px 29px 0px ${ThemeStyles.colors.white_muted}`,
     },
 
     dark: {
         ...ThemeStyles,
         background: ThemeStyles.colors.black,
         background_inverted: ThemeStyles.colors.white,
-        background_muted: ThemeStyles.colors.black,
+        background_muted: ThemeStyles.colors.black_muted,
         background_muted_inverted: ThemeStyles.colors.white_muted,
         text: ThemeStyles.colors.white,
         text_muted: ThemeStyles.colors.white_muted,
+        shadow: `0px 7px 10px 0px ${ThemeStyles.colors.black_muted}`,
     },
 };
 

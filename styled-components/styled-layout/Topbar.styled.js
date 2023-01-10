@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledTopbar = styled.div`
     background-color: ${({ theme }) => theme.background};
-    color: ${({ theme }) => theme.colors.primary};
+    color: ${({ theme }) => theme.colors.primary_muted};
     display: flex;
     flex-direction: row;
     row-wrap: nowrap;
@@ -15,7 +15,7 @@ const StyledTopbar = styled.div`
 
     a {
         text-decoration: none;
-        color: ${({ theme }) => theme.colors.primary};
+        color: ${({ theme }) => theme.colors.primary_muted};
     }
 
     .fa {
@@ -37,6 +37,13 @@ const StyledTopbar = styled.div`
 
     .fa-twitter {
         color: #1da1f2;
+    }
+
+    @media all and (min-width: 600px) {
+        padding-left: ${({ theme }) => theme.sizes.space_lg};
+        .topbar-email {
+            padding-left: ${({ theme }) => theme.sizes.space_md};
+        }
     }
 `;
 

@@ -55,7 +55,7 @@ const StyledPerson = styled.div`
             }
 
             p {
-                color: ${({ theme }) => theme.colors.primary};
+                color: ${({ theme }) => theme.colors.primary_muted};
                 font-size: ${({ theme }) => theme.sizes.font_md};
                 font-weight: 400;
             }

@@ -1,6 +1,16 @@
 import StyledWhoWeAreSection from "../../styled-components/styled-about/WhoWeAreSection.styled";
+import { useIsVisible } from "../../Hooks";
+import { useEffect, useRef } from "react";
 
 const WhoWeAreSection = () => {
+    // const textRef = useRef();
+    // const isTextVisible = useIsVisible(textRef);
+
+    // useEffect(() => {
+    //     textRef.current.classList.toggle("blur-in-animation");
+    //     console.log("text ref change");
+    // }, [isTextVisible]);
+
     return (
         <StyledWhoWeAreSection>
             <div className="who-top">

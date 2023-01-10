@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledNavbar = styled.div`
     background-color: ${({ theme }) => theme.background};
-    color: ${({ theme }) => theme.colors.primary};
+    color: ${({ theme }) => theme.colors.text};
     display: flex;
     padding: ${({ theme }) => theme.sizes.space_sm}
         ${({ theme }) => theme.sizes.space_md};
@@ -66,7 +66,7 @@ const StyledNavbar = styled.div`
         }
 
         a:hover {
-            background: ${({ theme }) => theme.colors.primary};
+            background: ${({ theme }) => theme.colors.text};
         }
     }
 
@@ -77,7 +77,11 @@ const StyledNavbar = styled.div`
         justify-content: space-between;
         align-items: center;
         position: sticky;
+        padding-left: ${({ theme }) => theme.sizes.space_lg};
 
+        .logo-container {
+            padding-left: ${({ theme }) => theme.sizes.space_md};
+        }
         .nav {
             display: block;
             width: max-content;

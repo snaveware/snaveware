@@ -10,7 +10,9 @@ import StyledTopbar from "../../styled-components/styled-layout/Topbar.styled";
 const Topbar = () => {
     return (
         <StyledTopbar>
-            <a href={"mailto:" + Config.EMAIL}>{Config.EMAIL}</a>
+            <a className="topbar-email" href={"mailto:" + Config.EMAIL}>
+                {Config.EMAIL}
+            </a>
 
             <div>
                 {/* <a href={Config.FACEBOOK} target="_blank">

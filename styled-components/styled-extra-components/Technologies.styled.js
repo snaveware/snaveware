@@ -25,6 +25,7 @@ const StyledTechnologies = styled.div`
         color: ${({ theme }) => theme.text};
         font-weight: 600;
         font-size: ${({ theme }) => theme.sizes.font_md};
+        color: ${({ theme }) => theme.colors.white};
     }
 
     .technologies-container {
