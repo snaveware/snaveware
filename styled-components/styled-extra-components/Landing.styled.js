@@ -22,7 +22,6 @@ const StyledLanding = styled.div`
         justify-content: flex-start;
         align-items: flex-start;
         margin: ${({ theme }) => theme.sizes.space_sm};
-        margin-left: ${({ theme }) => theme.sizes.space_lg};
         .landing-heading,
         .landing-typed-text,
         .landing-tagline {
@@ -102,7 +101,8 @@ const StyledLanding = styled.div`
             align-items: flex-start;
             text-align: left;
             margin: ${({ theme }) => theme.sizes.space_sm} 0px;
-            padding-left: ${({ theme }) => theme.sizes.space_md};
+            margin-left: ${({ theme }) => theme.sizes.space_lg};
+            padding: ${({ theme }) => theme.sizes.space_md};
 
             .landing-heading,
             .landing-typed-text,
@@ -112,6 +112,9 @@ const StyledLanding = styled.div`
             }
             .landing-heading {
                 font-size: 3.5rem;
+            }
+            .landing-btn-container {
+                justify-content: flex-start;
             }
         }
 
