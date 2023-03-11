@@ -108,6 +108,7 @@ const StyledLanding = styled.div`
             .landing-typed-text,
             .landing-tagline {
                 text-align: left;
+                margin: 0;
             }
             .landing-heading {
                 font-size: 3.5rem;
