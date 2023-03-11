@@ -110,9 +110,7 @@ const StyledLanding = styled.div`
                 text-align: left;
                 margin: 0;
             }
-            .landing-heading {
-                font-size: 3.5rem;
-            }
+
             .landing-btn-container {
                 justify-content: flex-start;
             }
