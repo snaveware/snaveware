@@ -35,7 +35,7 @@ const Landing = () => {
         <StyledLanding>
             <div className="landing-text">
                 <h1 className="landing-heading">
-                    Your Trusted Website Development Partner
+                    Your Trusted Software Development Partner
                 </h1>
                 <p className="landing-typed-text" ref={typedTextElement}>
                     {" "}

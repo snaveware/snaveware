@@ -26,8 +26,8 @@ const StyledLanding = styled.div`
         .landing-heading,
         .landing-typed-text,
         .landing-tagline {
-            text-align: left;
-            padding: ${({ theme }) => theme.sizes.space_md} 0px;
+            text-align: center;
+            padding: ${({ theme }) => theme.sizes.space_sm} 0px;
         }
 
         .landing-heading {
@@ -51,6 +51,8 @@ const StyledLanding = styled.div`
             font-size: 1.3rem;
             font-weight: 600;
             white-space: nowrap;
+            text-align: center;
+            width: 80%;
             &::before {
                 content: "~/";
                 padding: 0 3px;
@@ -70,12 +72,16 @@ const StyledLanding = styled.div`
 
         .landing-tagline {
             font-size: ${({ theme }) => theme.sizes.font_md};
-            tex-align: left;
+            tex-align: justify;
             width: 80%;
+            margin: auto;
             line-height: 2em;
         }
         .landing-btn-container {
             padding: ${({ theme }) => theme.sizes.space_lg} 0px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
         }
     }
 

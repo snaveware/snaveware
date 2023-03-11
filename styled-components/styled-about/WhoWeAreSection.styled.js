@@ -28,7 +28,7 @@ const StyledWhoWeAreSection = styled.div`
 
     .about-description {
         font-size: ${({ theme }) => theme.sizes.font_md};
-        text-align: left;
+        text-align: justify;
         padding: ${({ theme }) => theme.sizes.space_sm}
             ${({ theme }) => theme.sizes.space_lg};
     }
