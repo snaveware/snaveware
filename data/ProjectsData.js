@@ -69,6 +69,16 @@ const ProjectsData = [
         btnText: "Live app",
         btnLink: null,
     },
+    {
+        name: "Kenanie Gardens",
+        imageUrl: {
+            webp: "/projects/kenanie.webp",
+            other: "/projects/kenanie.jpg",
+        },
+        description: "A property Advertising Website",
+        btnText: "Live website",
+        btnLink: "https://www.kenaniegardens.com/",
+    },
 ];
 
 export default ProjectsData;

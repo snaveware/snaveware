@@ -14,13 +14,20 @@ const MyApp = ({ Component, pageProps }) => {
         alwaysShowTracks: true,
         continuousScrolling: true,
     };
+
     useEffect(() => {
-        if (window.matchMedia) {
-            // Check if the dark-mode Media-Query matches
-            if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-                setTheme(Themes.dark);
-            } else {
-                setTheme(Themes.light);
+        const darkmode = localStorage.getItem("dark_mode");
+
+        if (darkmode == 1) {
+            setTheme(Themes.dark);
+        } else {
+            if (window.matchMedia) {
+                // Check if the dark-mode Media-Query matches
+                if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                    setTheme(Themes.dark);
+                } else {
+                    setTheme(Themes.light);
+                }
             }
         }
 

@@ -25,10 +25,12 @@ const ThemeSwitch = () => {
             theme.setTheme(Themes.light);
             setThemeName("light");
             setFlex("flex-start");
+            localStorage.removeItem("dark_mode");
         } else {
             theme.setTheme(Themes.dark);
             setThemeName("dark");
             setFlex("flex-end");
+            localStorage.setItem("dark_mode", 1);
         }
     };
 
