@@ -1,6 +1,6 @@
 const Config = {
     EMAIL: "info@snaveware.com",
-    PHONENUMBER: "+254 739 709 851",
+    PHONENUMBER: "+254 759 666 898",
     GITHUB: "https://github.com/snaveware",
     INSTAGRAM: "https://www.instagram.com/snaveware/",
     FACEBOOK: "https://facebook.com/",
