@@ -1,6 +1,16 @@
 const ProjectsData = [
   {
-    name: "Global",
+    name: "SEPos",
+    imageUrl: {
+      webp: "/projects/epos.webp",
+      other: "/projects/epos.jpg",
+    },
+    description: "A Web-based Point of sale system",
+    btnText: "Live App Demo",
+    btnLink: "https://epos.snaveware.com",
+  },
+  {
+    name: "Ledja",
     imageUrl: {
       webp: "/projects/ledja.webp",
       other: "/projects/ledja.jpg",
@@ -80,10 +90,20 @@ const ProjectsData = [
     btnLink: null,
   },
   {
+    name: "TUKsocial",
+    imageUrl: {
+      webp: "/projects/tuksocial.webp",
+      other: "/projects/BP.png",
+    },
+    description: "A Social Network for TUK",
+    btnText: "Live Demo",
+    btnLink: null,
+  },
+  {
     name: "Borrower's Paradise",
     imageUrl: {
       webp: "/projects/BP.webp",
-      other: "/projects/BP.jpg",
+      other: "/projects/BP.png",
     },
     description: "A Loan Management mobile application",
     btnText: "Live Demo",
