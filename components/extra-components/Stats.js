@@ -11,13 +11,13 @@ const Stats = () => {
   const isVisible = useIsVisible(containerRef);
 
   useEffect(() => {
-    for (let index = 1; index <= 12; index++) {
+    for (let index = 1; index <= 15; index++) {
       setTimeout(() => {
         clientsElement.current.innerText = `${index}`;
       }, index * 200);
     }
 
-    for (let index = 1; index <= 20; index++) {
+    for (let index = 1; index <= 25; index++) {
       setTimeout(() => {
         projectsElement.current.innerText = `${index}`;
       }, index * 100);
@@ -37,7 +37,7 @@ const Stats = () => {
           <div className="stats-value-container-inner">
             <p>
               <span className="stats-value" ref={clientsElement}>
-                12
+                15
               </span>
               <span className="stats-value">{" + "}</span>
             </p>
@@ -52,7 +52,7 @@ const Stats = () => {
           <div className="stats-value-container-inner">
             <p>
               <span className="stats-value" ref={projectsElement}>
-                20
+                25
               </span>
               <span className="stats-value">{" + "}</span>
             </p>

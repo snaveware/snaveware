@@ -1,5 +1,15 @@
 const ProjectsData = [
   {
+    name: "Starmeet",
+    imageUrl: {
+      webp: "/projects/starmeet.webp",
+      other: "/projects/starmeet.png",
+    },
+    description: "A personalized celebrity video request platform",
+    btnText: "Live App Demo",
+    btnLink: "https://starmeet.snaveware.com",
+  },
+  {
     name: "SEPos",
     imageUrl: {
       webp: "/projects/epos.webp",
@@ -10,16 +20,6 @@ const ProjectsData = [
     btnLink: "https://epos.snaveware.com",
   },
   {
-    name: "Ledja",
-    imageUrl: {
-      webp: "/projects/ledja.webp",
-      other: "/projects/ledja.jpg",
-    },
-    description: "An online Job Board Webapp",
-    btnText: "Live App Demo",
-    btnLink: "https://ledja.snaveware.com",
-  },
-  {
     name: "Global",
     imageUrl: {
       webp: "/projects/global.webp",
@@ -28,6 +28,26 @@ const ProjectsData = [
     description: "A Shipping Management System",
     btnText: "Live System Demo",
     btnLink: "https://global.snaveware.com",
+  },
+  {
+    name: "Global",
+    imageUrl: {
+      webp: "/projects/global-dark.webp",
+      other: "/projects/global-dark.jpg",
+    },
+    description: "A Shipping Management System",
+    btnText: "Live System Demo",
+    btnLink: "https://global.snaveware.com",
+  },
+  {
+    name: "Ledja",
+    imageUrl: {
+      webp: "/projects/ledja.webp",
+      other: "/projects/ledja.jpg",
+    },
+    description: "An online Job Board Webapp",
+    btnText: "Live App Demo",
+    btnLink: "https://ledja.snaveware.com",
   },
   {
     name: "ONM Law",
@@ -128,6 +148,16 @@ const ProjectsData = [
     description: "A property Advertising Website",
     btnText: "Live website",
     btnLink: "https://www.kenaniegardens.com/",
+  },
+  {
+    name: "Starmeet",
+    imageUrl: {
+      webp: "/projects/starmeet-light.webp",
+      other: "/projects/starmeet-light.png",
+    },
+    description: "A personalized celebrity video request platform",
+    btnText: "Live App Demo",
+    btnLink: "https://starmeet.snaveware.com",
   },
 ];
 
